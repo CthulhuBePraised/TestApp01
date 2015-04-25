@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- Kevin Lee -->
-<widget id        = "html.index.Fish"
+<widget id        = "html.index"
         version   = "1.0.0">
 
     <name>Fish</name>
