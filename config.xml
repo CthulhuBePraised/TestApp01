@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- Kevin Lee -->
-<widget id        = "html.index.fish"
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+		xmlns:gap   = "http://phonegap.com/ns/1.0"
+		id        = "html.index.fish"
         version   = "1.0.0">
 
     <name>Fish</name>
