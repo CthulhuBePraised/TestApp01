@@ -1,18 +1,32 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--Kevin Lee-->
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8" />
 <title>Fish</title>
+<style>
+html,body {
+    height:100%;
+    margin:0;
+ }
+#swf-holder {
+    height:100%;
+ }
+#swf-holder object {
+    display:block;
+    width:100%;
+    height:100%;
+ }
+</style>
 </head>
 
 <body>
-<!--Dimensions set to that of an iPad screen-->
-<object width="2048" height="1536">
-    <param name="movie" value="fish.swf">
-    <embed src="fish.swf" width="2048" height="1536">
-    </embed>
+
+<div id="swf-holder">
+<object type="application/x-shockwave-flash" data="fish.swf">
+ <param name="movie" value="fish.swf">
 </object>
+</div>
 
 </body>
 </html>
